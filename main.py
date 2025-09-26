@@ -6,4 +6,4 @@ try:
     else:
         print(f"{year}年不是闰年")
 except ValueError:
-    print("请输入有效的数字年份！")
+    print("请输入有效的数字年份")
