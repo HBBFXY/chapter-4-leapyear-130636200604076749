@@ -1,4 +1,4 @@
-year_input = input("请输入一个年份：")
+year_input = input("")
 try:
     year = int(year_input)
     if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
